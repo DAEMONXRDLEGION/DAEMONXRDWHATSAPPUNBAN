@@ -19,13 +19,21 @@ To set up the DaemonXRD WhatsApp Unban Tool, follow these steps:
 
 1. **Install**:  
    ```
-  * pkg install git
- 
-   git clone https://github.com/DAEMONXRDLEGION/DAEMONXRDWHATSAPPUNBAN.git
-  
-   cd DAEMONXRDWHATSAPPUNBAN
-   
-   npm install nodemailer chalk cli-spinner
-   
-   node daemonxrdunban.js*
-   
+
+pkg update && pkg upgrade
+
+pkg install git
+
+git clone https://github.com/DAEMONXRDLEGION/DAEMONXRDWHATSAPPUNBAN.git
+
+cd DAEMONXRDWHATSAPPUNBAN
+
+pkg install nodejs
+
+npm install readline-sync
+
+pkg install termux-api
+
+termux-setup-storage
+
+node daemonxrdunban.js*
