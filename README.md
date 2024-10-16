@@ -17,9 +17,6 @@ Click the button below to contact the tool developer on Telegram:
 
 To set up the DaemonXRD WhatsApp Unban Tool, follow these steps:
 
-1. **Install**:  
-   ```
-
 pkg update && pkg upgrade
 
 pkg install git
