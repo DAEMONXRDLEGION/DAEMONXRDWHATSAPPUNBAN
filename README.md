@@ -33,4 +33,4 @@ pkg install termux-api
 
 termux-setup-storage
 
-node daemonxrdunban.js*
+node xrdunban.js*
